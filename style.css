@@ -1,0 +1,71 @@
+html,body{
+	height: 100%;
+	overflow-x: hidden;
+}
+body{
+	font-family: 'Helvetica','Sans Serif','Arial';
+	line-height: 1.42857143;
+	color: #333;
+}
+.wrapper{
+	position: relative;
+}
+.main-page-wrapper{
+	background-image: url(background.jpg);
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.headline{
+	color: #222;
+	background-color: #40C4FF;
+	position: absolute;
+	z-index: 10;
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
+.counter-wrapper{
+	font-size: 12vw;
+	line-height: 10vh;
+	margin-top: /*180px*/ 45vh;
+	margin-bottom: 45.5vh;
+}
+
+.counter{
+	text-shadow: 1px 1px rgba(255,255,255,0.15);
+	position: relative;
+}
+.counter:after{
+	content: 'HUF';
+	position: absolute;
+	left: 100%;
+	bottom: 0;
+	font-size: 6vw;
+	line-height: 9.3vw;
+	text-shadow: none;
+}
+.streams-wrapper{
+	background-image: url(stream-background.jpg);
+	background-position: calc(50% - 60px) -652px;
+	height: 100vh;
+}
+.stream-wrapper{
+	display: inline-block;
+	max-width: 100%;
+	overflow: hidden;
+	margin-bottom: 130px;
+	margin-top: 70px;
+}
+iframe {
+	width: /*656px*/425px; 
+	height: 334px;
+	overflow: hidden;
+	padding: none;
+	margin: 0;
+	border: none;
+}
+
+.streams{
+	background-color: red;
+	color: white;
+}
